@@ -121,6 +121,7 @@ CSS
 heading{
     font-size: 25px;
     font-weight:bolder;
+    text-transform:uppercase;
 }
 
 .intro {
@@ -144,9 +145,16 @@ body {
 .subheading{
     font-size:15px;
     font-weight:lighter;
-    color:#2f5a78
+    color:#2f5a78;
+    text-transform:uppercase;
 }
 
 .icon{
     color:#2f5a78;
+}
+
+.date{
+    color:#2f5a78;
+    font-size:26px;
+    font-weight:bolder;
 }
