@@ -126,7 +126,10 @@ heading{
 
 .intro {
     background-color:#2f5a78;
-    color:whitel
+    color:white;
+    padding-left:16px;
+    padding-bottom:8px;
+    margin-bottom:4px;
 }
 
 body {
@@ -140,6 +143,10 @@ body {
 
 .contactinfo{
     font-size:15px;
+    padding-left:16px;
+    padding-top:6px;
+    padding-bottom:6px;
+    background-color:#eeeeee;
 }
 
 .subheading{
@@ -147,6 +154,7 @@ body {
     font-weight:lighter;
     color:#2f5a78;
     text-transform:uppercase;
+    padding-left:16px;
 }
 
 .icon{
@@ -157,4 +165,29 @@ body {
     color:#2f5a78;
     font-size:26px;
     font-weight:bolder;
+}
+
+.social{
+    padding-left:16px;
+}
+
+.skills ul li{
+display:flex;
+margin-bottom:10px;
+justify-content:space-between;
+align-items:center;
+margin-left:-15px;
+}
+
+.skills ul li .skill_prog{
+    width:50%;
+    height:5px;
+    position:relative;
+}
+
+.skills ul li .skill_prog span{
+    padding-right:50px;
+    height:100%;
+    background: #2F5A78;
+    position: absolute;
 }
