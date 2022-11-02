@@ -191,3 +191,11 @@ margin-left:-15px;
     background: #2F5A78;
     position: absolute;
 }
+
+.skill_name{
+width:4px;
+}
+
+.skill_per{
+margin-right:15px;
+}
